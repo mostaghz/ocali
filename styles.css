@@ -2,7 +2,7 @@
 h1 {
   color: #5c6fc8;
   text-align: center;
-  font-size: 75px;
+  font-size: 85px;
   font-weight: 600;
 }
 
@@ -101,4 +101,52 @@ hr {
         right: 90px;
     }
 } */
+
+/* Yearly Info for 2023*/
+#description-2023 {
+    margin-right: 100px;
+    font-size: large;
+}
+
+#group-elements-2023 {
+    margin-top: -82.5px;
+}
+
+#circular-year-2023 {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4d5974;
+    /* navy-ish: #4d5974 ; brick: #a65b63 */
+    border: 50px solid white;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: relative; /* absolute kept it on the bottom, relative stays mostly center */
+    left: -115px;
+    top: 8px; /* pushes it down to be perfectly centered with half circle... there has to be a cleaner way */
+    z-index: 2;
+}
+
+#half-circle-2023 {
+    width: 200px;
+    height: auto;
+    position: relative;
+    right: -138px;
+    z-index: 1;
+    transform: scaleX(-1);
+}
+
+#icon-2023 {
+    width: 100px;
+    height: auto;
+    position: relative;
+    left: 415px;
+    z-index: 2;
+}
 
