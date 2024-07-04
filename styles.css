@@ -11,3 +11,31 @@ hr {
     border: 1px solid black;
     opacity: 1;
 }
+
+/* Yearly Info */
+.circular-year {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #14868a;
+    /* navy-ish: #4d5974 ; brick: #a65b63 */
+    border: 20px solid orange;
+    color: white;
+    text-align: center;
+    font-size: 21px;
+}
+
+.half-circle {
+    width: 110px;
+    height: auto;
+}
+
+.icon {
+    width: 65px;
+    height: auto;
+}
