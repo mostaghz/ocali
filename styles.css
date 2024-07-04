@@ -28,14 +28,22 @@ hr {
     color: white;
     text-align: center;
     font-size: 21px;
+    position: absolute;
+    left: -50px;
+    z-index: 2;
 }
 
 .half-circle {
     width: 110px;
     height: auto;
+    position: relative;
+    z-index: 1;
 }
 
 .icon {
     width: 65px;
     height: auto;
+    position: relative;
+    left: 50px;
+    z-index: 2;
 }
