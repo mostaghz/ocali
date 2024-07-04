@@ -13,42 +13,92 @@ hr {
 }
 
 /* Yearly Info for 2022 and 2024 */
-/* .description {
-    padding-right: 80px;
-} */
+.description {
+    margin-left: 100px;
+    font-size: large;
+}
 
 .circular-year {
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    padding: 50px;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    padding: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #14868a;
     /* navy-ish: #4d5974 ; brick: #a65b63 */
-    border: 20px solid white;
+    border: 50px solid white;
     color: white;
     text-align: center;
-    font-size: 21px;
+    font-size: 30px;
     position: relative; /* absolute kept it on the bottom, relative stays mostly center */
-    left: 175px;
+    left: 220px;
     top: 8px; /* pushes it down to be perfectly centered with half circle... there has to be a cleaner way */
     z-index: 2;
 }
 
 .half-circle {
-    width: 115px;
+    width: 200px;
     height: auto;
     position: relative;
     z-index: 1;
 }
 
 .icon {
-    width: 65px;
+    width: 100px;
     height: auto;
     position: relative;
-    right: 150px;
+    right: 165px;
     z-index: 2;
 }
+
+/* @media (max-width: 424px) {
+    .circular-year {
+        width: 50px;
+        font-size: 21px;
+        left: 35px;
+    }
+
+    .half-circle {
+        width: 115px;
+    }
+
+    .icon {
+        right: 15px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .circular-year {
+        width: 50px;
+        font-size: 21px;
+        left: 110px;
+    }
+
+    .half-circle {
+        width: 115px;
+    }
+
+    .icon {
+        right: 81px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .circular-year {
+        width: 50px;
+        font-size: 21px;
+        left: 100px;
+    }
+
+    .half-circle {
+        width: 115px;
+    }
+
+    .icon {
+        right: 90px;
+    }
+} */
+
