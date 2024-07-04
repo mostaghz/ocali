@@ -8,8 +8,9 @@ h1 {
 
 /* About Us Line Divider */
 hr {
-    border: 1px solid black;
+    border: 2px solid black;
     opacity: 1;
+    margin: 35px 0px 60px; 
 }
 
 /* Yearly Info for 2022 and 2024 */
@@ -52,6 +53,14 @@ hr {
     position: relative;
     right: 165px;
     z-index: 2;
+}
+
+#circular-year-2024 {
+    background-color: #a65b63;
+}
+
+#group-elements-2024 {
+    margin-top: -82.5px;
 }
 
 /* @media (max-width: 424px) {
@@ -149,4 +158,7 @@ hr {
     left: 415px;
     z-index: 2;
 }
+
+/* Email Sign-Up */
+
 
