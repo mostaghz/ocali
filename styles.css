@@ -160,5 +160,26 @@ hr {
 }
 
 /* Email Sign-Up */
+.mail-styled-input {
+    min-width: 100%;
+    height: 45px;
+    padding: 0 15px;
+    border: 1px solid magenta;
+}
 
+#mc-embedded-subscribe {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 23px;
+    background: #5b5b5b;
+    border: 1px solid #5b5b5b;
+    color: #fff;
+    float: inline-end;
+}
 
+.mail-wrap-submit-col {
+    position: absolute;
+    left: -5000px;
+}
