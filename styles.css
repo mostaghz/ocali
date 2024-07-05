@@ -1,4 +1,6 @@
-/* About Us */
+/***********
+   About Us
+************/
 h1 {
   color: #5c6fc8;
   text-align: center;
@@ -6,19 +8,19 @@ h1 {
   font-weight: 600;
 }
 
-/* About Us Line Divider */
 hr {
     border: 2px solid black;
     opacity: 1;
     margin: 35px 0px 60px; 
 }
 
-/* Yearly Info for 2022 and 2024 */
-.description {
-    margin-left: 100px;
-    font-size: large;
+#intro-paragraph {
+    margin-bottom: 60px;
 }
 
+/*********************
+  2022 and 2024 Info
+ *********************/
 .circular-year {
     border-radius: 50%;
     width: 90px;
@@ -29,7 +31,6 @@ hr {
     justify-content: center;
     align-items: center;
     background: #14868a;
-    /* navy-ish: #4d5974 ; brick: #a65b63 */
     border: 50px solid white;
     color: white;
     text-align: center;
@@ -63,60 +64,9 @@ hr {
     margin-top: -82.5px;
 }
 
-/* @media (max-width: 424px) {
-    .circular-year {
-        width: 50px;
-        font-size: 21px;
-        left: 35px;
-    }
-
-    .half-circle {
-        width: 115px;
-    }
-
-    .icon {
-        right: 15px;
-    }
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-    .circular-year {
-        width: 50px;
-        font-size: 21px;
-        left: 110px;
-    }
-
-    .half-circle {
-        width: 115px;
-    }
-
-    .icon {
-        right: 81px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .circular-year {
-        width: 50px;
-        font-size: 21px;
-        left: 100px;
-    }
-
-    .half-circle {
-        width: 115px;
-    }
-
-    .icon {
-        right: 90px;
-    }
-} */
-
-/* Yearly Info for 2023*/
-#description-2023 {
-    margin-right: 100px;
-    font-size: large;
-}
-
+/*************
+   2023 Info
+ *************/
 #group-elements-2023 {
     margin-top: -82.5px;
 }
@@ -131,7 +81,6 @@ hr {
     justify-content: center;
     align-items: center;
     background: #4d5974;
-    /* navy-ish: #4d5974 ; brick: #a65b63 */
     border: 50px solid white;
     color: white;
     text-align: center;
@@ -159,12 +108,12 @@ hr {
     z-index: 2;
 }
 
-/* Email Sign-Up */
-.mail-styled-input {
-    min-width: 100%;
-    height: 45px;
-    padding: 0 15px;
-    border: 1px solid magenta;
+/*******************
+   Subscribe Form
+********************/
+
+#subscribe-form-h2 {
+    margin: 60px 0 20px;
 }
 
 #mc-embedded-subscribe {
@@ -179,7 +128,44 @@ hr {
     float: inline-end;
 }
 
-.mail-wrap-submit-col {
+.sr-only {
     position: absolute;
-    left: -5000px;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+  }
+  
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+.form-group-inline {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-group-inline .col {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.form-group-inline .col:last-child {
+    padding-right: 0;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+#learn-more {
+    text-align:center;
+    padding-top: 15px;
 }
