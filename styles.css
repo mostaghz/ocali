@@ -1,14 +1,14 @@
 /***********
    About Us
 ************/
-/* h1 {
+h1 {
   color: #5c6fc8;
   text-align: center;
-  font-size: 85px;
+  font-size: 60px;
   font-weight: 600;
 }
 
-hr {
+/* hr {
     border: 2px solid black;
     opacity: 1;
     margin: 35px 0px 60px; 
@@ -196,9 +196,8 @@ input[type="email"] {
         text-align: center;
         font-size: 30px;
         /* position: relative; absolute kept it on the bottom, relative stays mostly center */
-        /* left: 220px;
-        top: 8px; /* pushes it down to be perfectly centered with half circle... there has to be a cleaner way */
-        /*z-index: 2; */
+        /* left: 220px;*/
+        top: -35px;
     }
 
     #circular-year-2023 {
@@ -217,8 +216,7 @@ input[type="email"] {
         font-size: 30px;
         position: relative; /* absolute kept it on the bottom, relative stays mostly center */
         /* left: -115px; */
-        top: 8px; /* pushes it down to be perfectly centered with half circle... there has to be a cleaner way */
-        z-index: 2;
+        top: -35px;
     }
 
     .half-circle {
@@ -230,26 +228,23 @@ input[type="email"] {
     }
 
     .icon {
-        width: 50px;
+        width: 70px;
         height: auto;
         position: relative;
-        /* right: 165px; */
+        left: 75px;
         z-index: 2;
     }
 
     #icon-2023 {
-        width: 50px;
+        width: 70px;
         height: auto;
         position: relative;
-        /* left: 415px; */
+        left: 75px;
         z-index: 2;
+        /* margin-top: 30px; */
     }
 
     #circular-year-2024 {
         background-color: #a65b63;
-    }
-
-    #group-elements-2024 {
-        margin-top: -82.5px;
     }
 }
