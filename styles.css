@@ -1,7 +1,7 @@
 /***********
    About Us
 ************/
-h1 {
+/* h1 {
   color: #5c6fc8;
   text-align: center;
   font-size: 85px;
@@ -16,12 +16,12 @@ hr {
 
 #intro-paragraph {
     margin-bottom: 60px;
-}
+} */
 
 /*********************
   2022 and 2024 Info
  *********************/
-.circular-year {
+/*.circular-year {
     border-radius: 50%;
     width: 90px;
     height: 90px;
@@ -36,9 +36,9 @@ hr {
     text-align: center;
     font-size: 30px;
     position: relative; /* absolute kept it on the bottom, relative stays mostly center */
-    left: 220px;
+    /*left: 220px;
     top: 8px; /* pushes it down to be perfectly centered with half circle... there has to be a cleaner way */
-    z-index: 2;
+    /*z-index: 2;
 }
 
 .half-circle {
@@ -67,7 +67,7 @@ hr {
 /*************
    2023 Info
  *************/
-#group-elements-2023 {
+/*#group-elements-2023 {
     margin-top: -82.5px;
 }
 
@@ -86,9 +86,9 @@ hr {
     text-align: center;
     font-size: 30px;
     position: relative; /* absolute kept it on the bottom, relative stays mostly center */
-    left: -115px;
+    /*left: -115px;
     top: 8px; /* pushes it down to be perfectly centered with half circle... there has to be a cleaner way */
-    z-index: 2;
+    /*z-index: 2;
 }
 
 #half-circle-2023 {
@@ -112,7 +112,7 @@ hr {
    Subscribe Form
 ********************/
 
-#subscribe-form-h2 {
+/*#subscribe-form-h2 {
     margin: 60px 0 20px;
 }
 
@@ -168,4 +168,88 @@ input[type="email"] {
 #learn-more {
     text-align:center;
     padding-top: 15px;
+}*/
+
+@media (max-width: 600px) {
+
+    body {
+        background-image: url(images/orange-squiggle.png);
+        background-size: 100%;
+        background-repeat: repeat-y;
+        background-position: -35px;
+    }
+/*********************
+  2022 and 2024 Info
+*********************/
+    .circular-year {
+        border-radius: 50%;
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        padding: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #14868a;
+        /* border: 50px solid white; */
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        /* position: relative; absolute kept it on the bottom, relative stays mostly center */
+        /* left: 220px;
+        top: 8px; /* pushes it down to be perfectly centered with half circle... there has to be a cleaner way */
+        /*z-index: 2; */
+    }
+
+    #circular-year-2023 {
+        border-radius: 50%;
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        padding: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #4d5974;
+        /* border: 50px solid white; */
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        position: relative; /* absolute kept it on the bottom, relative stays mostly center */
+        /* left: -115px; */
+        top: 8px; /* pushes it down to be perfectly centered with half circle... there has to be a cleaner way */
+        z-index: 2;
+    }
+
+    .half-circle {
+        display: none;
+    }
+
+    #half-circle-2023 {
+        display: none;
+    }
+
+    .icon {
+        width: 50px;
+        height: auto;
+        position: relative;
+        right: 165px;
+        z-index: 2;
+    }
+
+    #icon-2023 {
+        width: 50px;
+        height: auto;
+        position: relative;
+        left: 415px;
+        z-index: 2;
+    }
+
+    #circular-year-2024 {
+        background-color: #a65b63;
+    }
+
+    #group-elements-2024 {
+        margin-top: -82.5px;
+    }
 }
