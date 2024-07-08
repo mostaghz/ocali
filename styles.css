@@ -195,7 +195,7 @@ input[type="email"] {
         color: white;
         text-align: center;
         font-size: 30px;
-        /* position: relative; absolute kept it on the bottom, relative stays mostly center */
+        position: relative; /*absolute kept it on the bottom, relative stays mostly center */
         /* left: 220px;*/
         top: -35px;
     }
@@ -241,7 +241,6 @@ input[type="email"] {
         position: relative;
         left: 75px;
         z-index: 2;
-        /* margin-top: 30px; */
     }
 
     #circular-year-2024 {
