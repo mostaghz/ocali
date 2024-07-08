@@ -170,13 +170,13 @@ input[type="email"] {
     padding-top: 15px;
 }*/
 
-@media (max-width: 600px) {
+@media (max-width: 575px) {
 
     body {
         background-image: url(images/orange-squiggle.png);
         background-size: 100%;
         background-repeat: repeat-y;
-        background-position: -35px;
+        background-position: -33px;
     }
 /*********************
   2022 and 2024 Info
@@ -233,7 +233,7 @@ input[type="email"] {
         width: 50px;
         height: auto;
         position: relative;
-        right: 165px;
+        /* right: 165px; */
         z-index: 2;
     }
 
@@ -241,7 +241,7 @@ input[type="email"] {
         width: 50px;
         height: auto;
         position: relative;
-        left: 415px;
+        /* left: 415px; */
         z-index: 2;
     }
 
